@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Soham  Deshmukh | blank</title>
+<title>Soham  Deshmukh | Making internet safer</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -29,7 +29,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/toxic/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -100,7 +100,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -108,8 +108,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -168,30 +166,57 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Making internet safer</h1>
+    <p class="post-description">Detecting toxicity in social media platforms</p>
+  </header>
 
+  <article>
+    <p><img class="img-fluid rounded z-depth-1" src="/assets/img/capsuleintro.jpg" alt="" title="example image" /></p>
+<div class="caption">
+    Social media
+</div>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/cmu/">Graduating from CMU</a></h3>
-        <p class="post-meta">December 12, 2020</p>
-        <p>Graduated with masters in Electrical and Computer Engineering from CMU</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/summer-intern/">Summer 2020 at Microsoft</a></h3>
-        <p class="post-meta">August 20, 2020</p>
-        <p>Using machine learning in industry and how that defers from academia.</p>
-      </li>
-    
-  </ul>
+<p>Internet has enabled people to communicate and learn from each other. Learning from others and at the same time expressing ones feeling and opinions to others requires a consoling and comforting environment. Online hate, abuse, toxicity shuns people from opening up and taking full advantage of the opportunities that online communication provides. This is observable on social media platforms like Facebook, Twitter and even Quora. A subtle form of toxicity in observed on Quora in the form of insincere questions. Insincere questions are those founded upon false premises, or that intend to make a statement rather than look for helpful answers.</p>
 
-  
+<p>With respect to label taxonomy, each comment can be classified into buckets:</p>
+<ul>
+  <li>safe</li>
+  <li>insincere</li>
+  <li>toxic</li>
+  <li>severe toxic</li>
+  <li>obscene</li>
+  <li>threat</li>
+  <li>insult</li>
+  <li>identity hate</li>
+</ul>
 
+<p>Kaggle hosted two challenges for detecting online toxicity. The first one in 2018 was organised by <a href="https://jigsaw.google.com/">Jigsaw, Google</a> and the second in 2019 was organised by <a href="https://www.quora.com/about">Quora</a>. I participated in both of the challenges, and it generated some great solutions. Competitions links: <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Google</a>, <a href="https://www.kaggle.com/c/quora-insincere-questions-classification">Quora</a>.</p>
+
+<p>In brief, the solution generally involved combination of LSTM/GRU/CNN/Boosting architectures with GLoVe/FastText/Paragram/BPE embeddings and variety of learning strategies. The main challenges were the text length, slangs being used, with misspelling, special characters, and innuendos. Hence a lot of effort went into preprocessing the data. I recommend checking out the challenge pages for the solution descriptions.</p>
+
+<p>The solution we developed was a combination of all of the above. A interesting model we developed was <a href="https://ieeexplore.ieee.org/abstract/document/8722433">Recurrent Capsule Networks</a>. It was the best performing single model across the competition. Our insight was, internal data representation of a CNN does not take into account important spatial hierarchies between simple and complex objects which in NLP implies that a presence of word will have more impact on the classification rather than their relative orientation to each other. Its based on <a href="https://arxiv.org/pdf/1710.09829.pdf">capsule networks</a> introduced by Hinton in 2017 for computer vision tasks. We found integrating RNN with capsule networks works very well to detect toxic sarcasm and innuedos.</p>
+
+<p>We tested the architecture on standard benchmark datasets which cover various text classification tasks such as news categorization and sentiment analysis, to demonstrate the generalizability of the model irrespective of the domain.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/capsuletable.jpg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/capsuletable2.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    On the left shows datasets used for model evaluate. On the right, are the results on standard datasets. All numbers are AUC ROC scores.
+</div>
+
+<p>Recently there have been challenges to tackle social media toxicity in multimodal data. If this area interests you, this dataset is a good place to start: <a href="https://ai.facebook.com/blog/hateful-memes-challenge-and-data-set/">facebook hateful memes challenge</a></p>
+
+<h2 id="references">References</h2>
+<p>[1] “Tackling Toxic Online Communication with Recurrent Capsule Networks”, Soham Deshmukh, Rahul Rade- CICT 2018 <br /></p>
+
+  </article>
 
 </div>
 
