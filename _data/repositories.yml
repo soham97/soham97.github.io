@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - soham97
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - soham97/awesome-sound_event_detection
+  - microsoft/CLAP
+  - microsoft/WavText5K
+  - soham97/MTL_Weakly_labelled_audio_data

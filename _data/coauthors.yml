@@ -1,34 +1,35 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Raj":
+  - firstname: ["Bhiksha"]
+    url: http://mlsp.cs.cmu.edu/people/bhiksha/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Singh":
+  - firstname: ["Rita"]
+    url: http://mlsp.cs.cmu.edu/people/rsingh/index.html
 
 "Rosen":
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Al Ismail": 
+  - firstname: ["Mahmoud"]
+    url: http://mahmoudalismail.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Rade":
+  - firstname: ["Rahul"]
+    url: https://imrahulr.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Zhou":
+  - firstname: ["Ruijie"]
+    url: https://scholar.google.com/citations?user=lAbyUI8AAAAJ&hl=en
+    
+"Elizalde":
+  - firstname: ["Benjamin"]
+    url: https://bmartin1.github.io/
+    
+"Wang":
+  - firstname: ["Huaming"]
+    url: https://www.linkedin.com/in/huaming-wang-5533588/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Lee":
+  - firstname: ["Charles"]
+    url: https://www.linkedin.com/in/chasylee/
