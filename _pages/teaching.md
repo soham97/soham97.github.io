@@ -24,8 +24,8 @@ nav_order: 5
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities include creating and improving assignments and homeworks.-->
 
 ## Academic activities
-- ICASSP reviewer
-- ICASSP 2023 Special Session "Synergy between human and machine approaches to sound/scene recognition and processing"
+- Reviewer: ICASSP 2023; INTERSPEECH 2023
+- Sessions: Special Session "Synergy between human and machine approaches to sound/scene recognition and processing" at ICASSP 2023 
 
 ## Interns
 Microsoft and Microsoft Research has summer internship programs and we are always looking for exceptional PhD students to join our team as research interns. Check out our [careers page](https://careers.microsoft.com/us/en) for open positions.
