@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 22-7-13
+date: 22-2-13
 inline: true
 ---
-
-Paper proposing learning audio concepts from natural language released on Arxiv and available online [here](https://arxiv.org/abs/2206.04769)
+Scheduler service integrated in M365 and reached general availability: [here](https://learn.microsoft.com/en-us/microsoft-365/scheduler/scheduler-overview?view=o365-worldwide)
