@@ -7,6 +7,8 @@ nav: true
 nav_order: 5
 ---
 ## Talks
+- Towards zero-shot audio models <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Mar 23] [Robust MLSP](http://mlsp.cs.cmu.edu/), CMU <br>
 - Learning audio concepts from natural language supervision <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Oct 22] [Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/), Microsoft <br>
 - Weakly-supervised and Semi-supervised learning and its application in audio and speech <br>
