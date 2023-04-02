@@ -7,6 +7,7 @@ nav: true
 nav_order: 5
 ---
 ## Talks
+- [Mar 23] Towards zero-shot audio models. [Robust](http://www.cs.cmu.edu/~robust/) [MLSP](http://mlsp.cs.cmu.edu/), CMU <br>
 - Towards zero-shot audio models <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Mar 23] [Robust MLSP](http://mlsp.cs.cmu.edu/), CMU <br>
 - Learning audio concepts from natural language supervision <br>
