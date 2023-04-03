@@ -10,7 +10,7 @@ nav_order: 5
 - [Mar 2023] Towards zero-shot audio models. [Robust](http://www.cs.cmu.edu/~robust/) [MLSP](http://mlsp.cs.cmu.edu/), CMU <br>
 - [Oct 2022] Learning audio concepts from natural language supervision. [Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/), Microsoft <br>
 - [Dec 2020] Weakly-supervised and Semi-supervised learning and its application in audio & speech. [Spoken Language Systems Group (SLS)](http://groups.csail.mit.edu/sls/), MIT CSAIL. [[slides]](https://drive.google.com/file/d/1tEyTNbvT5To16fBC_cSVadTI4oFb_s7r/view) <br>
-- [Feb 2020] Basic's of multivariable and matrix calculus for understanding machine learning algorithms [CMU](https://www.cmu.edu/) <br>
+- [Feb 2020] Basic's of multivariable and matrix calculus for understanding machine learning algorithms. [CMU](https://www.cmu.edu/) <br>
 - Attacker behaviour profiling and modelling framework for Honeypot data <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Oct 2018] [Cyber peace foundation](https://en.wikipedia.org/wiki/Cyberpeace_Foundation), CoE-CNDS <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nov 2018] [ICICI bank](https://en.wikipedia.org/wiki/ICICI_Bank), CoE-CNDS <br>
