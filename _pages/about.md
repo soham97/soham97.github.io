@@ -15,4 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am an applied scientist at Microsoft working at the intersection of audio and natural language processing. I received my masters from Carnegie Mellon University where my research was advised by Prof. Bhiksha Raj and Prof. Rita Singh. Prior to CMU, I received my B.Tech from VJTI, where I worked with Prof. Faruk Kazi in the area of threat modelling and natural language processing. Professionally, I spent my summers interning at Microsoft, Siemens R&D, and Siemens. My microsoft research page can be found [here](https://www.microsoft.com/en-us/research/people/sdeshmukh/).
+I am an Applied Scientist on the Microsoft Speech team. I am also a PhD student in the [MLSP group](http://mlsp.cs.cmu.edu/) at Carnegie Mellon University. My research interests include audio processing, self-supervised learning, and responsible AI.
+
+Previously, I received my masters degree from Carnegie Mellon University and B.Tech from VJTI. I have been an intern at Microsoft, Siemens R&D, and Siemens. My Microsoft research page can be found [here](https://www.microsoft.com/en-us/research/people/sdeshmukh/).
