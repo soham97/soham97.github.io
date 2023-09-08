@@ -18,3 +18,5 @@ social: true  # includes social icons at the bottom of the page
 I am an Applied Scientist on the Microsoft Speech team. I am also a PhD student in the [MLSP group](http://mlsp.cs.cmu.edu/) at Carnegie Mellon University. My research interests include audio processing, self-supervised learning, and responsible AI.
 
 Previously, I received my masters degree from Carnegie Mellon University and B.Tech from VJTI. I have been an intern at Microsoft, Siemens R&D, and Siemens. My Microsoft research page can be found [here](https://www.microsoft.com/en-us/research/people/sdeshmukh/).
+
+**Research opportunities:** If you have questions or want to collaborate with me, feel free to email me at sdeshmuk - at - andrew.cmu.edu
