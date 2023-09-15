@@ -6,10 +6,6 @@
   - firstname: ["Rita"]
     url: http://mlsp.cs.cmu.edu/people/rsingh/index.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
 "Al Ismail": 
   - firstname: ["Mahmoud"]
     url: http://mahmoudalismail.com/
@@ -33,3 +29,7 @@
 "Lee":
   - firstname: ["Charles"]
     url: https://www.linkedin.com/in/chasylee/
+
+"Emmanouilidou"
+  - firstname: ["Dimitra"]
+    url: https://www.microsoft.com/en-us/research/people/diemmano/
