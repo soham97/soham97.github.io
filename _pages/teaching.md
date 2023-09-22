@@ -23,7 +23,7 @@ nav_order: 5
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities include creating and improving assignments and homeworks.-->
 
 ## Academic activities
-- Reviewer: ICASSP 2023; INTERSPEECH 2023
+- Reviewer: ICASSP 2024; ICASSP 2023; INTERSPEECH 2023
 - Sessions: Special Session "Synergy between human and machine approaches to sound/scene recognition and processing" at ICASSP 2023 
 
 ## Interns
