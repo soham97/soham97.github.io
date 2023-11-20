@@ -15,9 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Applied Scientist on the Microsoft Speech team. I am also a PhD student in the [MLSP group](http://mlsp.cs.cmu.edu/) at Carnegie Mellon University. My research aims to build and improve the audio capabilities of machines. Some past directions include:
-- Audio-Language Models: [Pengi](https://neurips.cc/virtual/2023/poster/70860), [CLAPv2](https://arxiv.org/abs/2309.05767), [CLAP](https://arxiv.org/abs/2206.04769)
-- Low-resource adaptation: [Text-only training](https://arxiv.org/abs/2309.07372)
+I am an Applied Scientist on the Microsoft Speech team. I am also a PhD student in the [MLSP group](http://mlsp.cs.cmu.edu/) at Carnegie Mellon University. My research aims to build and improve the audio capabilities of machines.
 
 Previously, I received my masters degree from Carnegie Mellon University and B.Tech from VJTI. I have been an intern at Microsoft, Siemens R&D, and Siemens. My Microsoft research page can be found [here](https://www.microsoft.com/en-us/research/people/sdeshmukh/).
 
