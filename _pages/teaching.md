@@ -16,14 +16,15 @@ nav_order: 5
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nov 2018] [ICICI bank](https://en.wikipedia.org/wiki/ICICI_Bank), CoE-CNDS <br>
 
 ## Teaching
+- [Fall 2023] TA: Machine Learning for Signal Processing, with [Prof. Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/), CMU <br>
 - [Spring 2020] TA: Introduction to Machine Learning, with [Prof. Gauri Joshi](http://www.andrew.cmu.edu/user/gaurij/), [Prof. Carlee Joe-Wong](http://www.andrew.cmu.edu/user/cjoewong/), CMU <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities include conducting recitations, weekly office hours, create and grade homeworks
+Responsibilities for TA include conducting recitations, weekly office hours, create and grade homeworks
 <!--## - [Fall 2018] TA: Neural Networks and Fuzzy Logic, with [Prof. Faruk Kazi](), VJTI. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities include creating and improving assignments and homeworks.-->
 
 ## Academic activities
-- Reviewer: ICASSP 2024; ICASSP 2023; INTERSPEECH 2023
-- Sessions: Special Session "Synergy between human and machine approaches to sound/scene recognition and processing" at ICASSP 2023 
+- Reviewer: ICASSP [2023, 2024]; INTERSPEECH 2023
+- Workshop: Special Session "Synergy between human and machine approaches to sound/scene recognition and processing" at ICASSP 2023 
 
 ## Interns
 Microsoft and Microsoft Research has summer internship programs and we are always looking for exceptional PhD students to join our team as research interns. Check out our [careers page](https://careers.microsoft.com/us/en) for open positions.
