@@ -23,7 +23,7 @@ Responsibilities for TA include conducting recitations, weekly office hours, cre
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities include creating and improving assignments and homeworks.-->
 
 ## Academic activities
-- Reviewer: ICASSP [2023, 2024]; INTERSPEECH 2023
+- Reviewer: ICASSP [2023, 2024]; INTERSPEECH [2023,2024]
 - Workshop: Special Session "Synergy between human and machine approaches to sound/scene recognition and processing" at ICASSP 2023 
 
 ## Interns
