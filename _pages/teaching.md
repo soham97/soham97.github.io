@@ -35,6 +35,7 @@ Past and Current Interns (Advised/Co-Advised)
 - [Neha Nishikanth](https://www.linkedin.com/in/neha-nishikant), Bachelors at CMU (next: Palantir)
 
 ## Press:
+- [Microsoft Research Blog](https://www.microsoft.com/en-us/research/blog/research-focus-week-of-april-1-2024/) Research on Automated Audio Captioning featured in Microsoft Research Blog. 
 - [Analytics India Magazine 2023](https://analyticsindiamag.com/microsoft-launches-pengi-an-audio-language-model-for-open-ended-tasks) Microsoft launches Pengi, an Audio Language Model for Open-ended Tasks
 - [Microsoft Garage 2021](https://www.credly.com/badges/52315cc2-c5b5-46d1-a73b-e26f0b5899c3/public_url) Internal coverage for hackathon project in the area of speech and audio
 - [Business Insider 2020](https://www.businessinsider.com/ai-labs-diagnose-covid-19-voice-listening-talk-2020-4) Do I sound sick to you? Researchers are building AI that would diagnose COVID-19 by listening to people talk
