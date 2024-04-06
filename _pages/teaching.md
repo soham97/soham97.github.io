@@ -16,8 +16,8 @@ nav_order: 5
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nov 2018] [ICICI bank](https://en.wikipedia.org/wiki/ICICI_Bank), CoE-CNDS <br>
 
 ## Teaching
-- [Fall 2023] TA: Machine Learning for Signal Processing, with [Prof. Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/), CMU <br>
-- [Spring 2020] TA: Introduction to Machine Learning, with [Prof. Gauri Joshi](http://www.andrew.cmu.edu/user/gaurij/), [Prof. Carlee Joe-Wong](http://www.andrew.cmu.edu/user/cjoewong/), CMU <br>
+- [Fall 2023] TA: Machine Learning for Signal Processing [[2]](https://mlsp2023.cs.cmu.edu/), with [Prof. Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/), CMU <br>
+- [Spring 2020] TA: Introduction to Machine Learning [[1]](https://soham97.github.io/), with [Prof. Gauri Joshi](http://www.andrew.cmu.edu/user/gaurij/), [Prof. Carlee Joe-Wong](http://www.andrew.cmu.edu/user/cjoewong/), CMU <br>
 Responsibilities for TA include conducting recitations, weekly office hours, create and grade homeworks
 <!--## - [Fall 2018] TA: Neural Networks and Fuzzy Logic, with [Prof. Faruk Kazi](), VJTI. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Responsibilities include creating and improving assignments and homeworks.-->
