@@ -4,4 +4,4 @@ date: 21-1-1
 inline: true
 ---
 
-Two papers proposing methods of estimating upper respiratory pathologies directly from voice are accepted at ICASSP 2021.
+Two papers on detecting upper respiratory pathologies from voice are accepted at ICASSP 2021 [[1]](https://ieeexplore.ieee.org/document/9414201), [[2]](https://ieeexplore.ieee.org/document/9414530).
