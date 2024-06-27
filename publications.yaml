@@ -1,0 +1,121 @@
+conference-papers:
+  - title: "SELM: Enhancing Speech Emotion Recognition for Out-of-Domain Scenarios"
+    url: ""
+    authors: "Hazim Bukhari, Soham Deshmukh, Hira Dhamyal, Bhiksha Raj, and Rita Singh"
+    venue: "INTERSPEECH"
+    year: 2024
+
+  - title: "Domain Adaptation for Contrastive Audio-Language Models"
+    url: "https://arxiv.org/abs/2402.09585"
+    authors: "Soham Deshmukh, Rita Singh, and Bhiksha Raj"
+    venue: "INTERSPEECH"
+    year: 2024
+    
+  - title: "PAM: Prompting Audio-Language Models for Audio Quality Assessment"
+    url: "https://arxiv.org/abs/2402.00282"
+    authors: "Soham Deshmukh, Dareen Alharthi, Benjamin Elizalde, Hannes Gamper, Mahmoud Al Ismail, Rita Singh, Bhiksha Raj, and Huaming Wang"
+    venue: "INTERSPEECH"
+    year: 2024
+    resources:
+      - "code": "https://github.com/soham97/PAM"
+
+  - title: "LoFT: Local Proxy Fine-tuning For Improving Transferability Of Adversarial Attacks Against Large Language Model"
+    url: "https://arxiv.org/abs/2310.04445"
+    authors: "Muhammad Ahmed Shah, Roshan Sharma, Hira Dhamyal, Raphael Olivier, Ankit Shah, Dareen Alharthi, Hazim T Bukhari, Massa Baali, Soham Deshmukh, Michael Kuhlmann, Bhiksha Raj, and Rita Singh"
+    venue: "ArXiv"
+    year: 2023
+
+  - title: "Prompting Audios Using Acoustic Properties For Emotion Representation"
+    url: "https://arxiv.org/abs/2310.02298"
+    authors: "Hira Dhamyal, Benjamin Elizalde, Soham Deshmukh, Huaming Wang, Bhiksha Raj, and Rita Singh"
+    venue: "ICASSP"
+    year: 2024
+    resources:
+      - "poster": "https://github.com/soham97/PAM"
+
+  - title: "Training Audio Captioning Models without Audio"
+    url: "https://arxiv.org/abs/2309.07372"
+    authors: "Soham Deshmukh, Benjamin Elizalde, Dimitra Emmanouilidou, Bhiksha Raj, Rita Singh, and Huaming Wang"
+    venue: "ICASSP"
+    year: 2024
+    resources:
+      - "poster": "https://github.com/soham97/PAM"
+      - "code": "https://github.com/soham97/PAM"
+
+  - title: "Natural Language Supervision for General-Purpose Audio Representations"
+    url: "https://arxiv.org/abs/2309.05767"
+    authors: "Benjamin Elizalde*, Soham Deshmukh*, and Huaming Wang"
+    venue: "ICASSP"
+    year: 2024
+    resources:
+      - "poster": "https://github.com/soham97/PAM"
+      - "code": "https://github.com/soham97/PAM"
+  
+  - title: "Pengi: An Audio Language Model for Audio Tasks"
+    url: "https://arxiv.org/abs/2305.11834"
+    authors: "Soham Deshmukh, Benjamin Elizalde, Rita Singh, and Huaming Wang"
+    venue: "NeurIPS"
+    year: 2023
+    resources:
+      - "poster": "https://github.com/soham97/PAM"
+      - "code": "https://github.com/microsoft/Pengi"
+
+  - title: "Audio Retrieval with WavText5K and CLAP Training"
+    url: "https://arxiv.org/abs/2209.14275"
+    authors: "Soham Deshmukh, Benjamin Elizalde, and Huaming Wang"
+    venue: "INTERSPEECH"
+    year: 2023
+    resources:
+      - "poster": "https://github.com/soham97/PAM"
+      - "code": "https://github.com/microsoft/Pengi"
+
+  - title: "Multi-View Learning for Speech Emotion Recognition"
+    url: "https://www.microsoft.com/en-us/research/uploads/prod/2023/03/ICASSP_2023_MultiView_Speech_Emotion_Tompkins.pdf"
+    authors: "Daniel Tompkins, Dimitra Emmanouilidou, Soham Deshmukh, and Benjamin Elizalde"
+    venue: "ICASSP"
+    year: 2023
+
+  - title: "CLAP: Learning Audio Concepts From Natural Language Supervision"
+    url: "https://arxiv.org/abs/2206.04769"
+    authors: "Benjamin Elizalde, Soham Deshmukh, Mahmoud Al Ismail, and Huaming Wang"
+    venue: "ICASSP"
+    year: 2023
+
+  - title: "Improving weakly supervised sound event detection with self-supervised auxiliary tasks"
+    url: "https://arxiv.org/abs/2106.06858"
+    authors: "Soham Deshmukh, Bhiksha Raj, and Rita Singh"
+    venue: "INTERSPEECH"
+    year: 2021
+    resources:
+      - "code": "https://github.com/soham97/MTL_Weakly_labelled_audio_data"
+      - "slides": "https://soham97.github.io/assets/pdf/INTERSPEECH_21_slides.pdf"
+
+  - title: "Detection of Covid-19 Through the Analysis of Vocal Fold Oscillations"
+    url: "https://arxiv.org/abs/2010.10707"
+    authors: "Mahmoud Al Ismail, Soham Deshmukh, and Rita Singh"
+    venue: "ICASSP"
+    year: 2021
+
+  - title: "Interpreting Glottal Flow Dynamics for Detecting Covid-19 From Voice"
+    url: "https://arxiv.org/abs/2010.16318"
+    authors: "Soham Deshmukh, Mahmoud Al Ismail, and Rita Singh"
+    venue: "ICASSP"
+    year: 2021
+
+  - title: "Multi-Task Learning for Interpretable Weakly Labelled Sound Event Detection"
+    url: "https://arxiv.org/abs/2008.07085"
+    authors: "Soham Deshmukh, Bhiksha Raj, and Rita Singh"
+    venue: "ArXiv"
+    year: 2020
+
+  - title: "Temporal and Stochastic Modelling of Attacker Behaviour"
+    url: ""
+    authors: "Rahul Rade, Soham Deshmukh, Ruturaj Nene, Amey S. Wadekar, and Ajay Unny"
+    venue: "ICIIT"
+    year: 2019
+
+  - title: "Tackling Toxic Online Communication with Recurrent Capsule Networks"
+    url: ""
+    authors: "Soham Deshmukh, and Rahul Rade"
+    venue: "CICT"
+    year: 2018

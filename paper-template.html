@@ -1,0 +1,22 @@
+<!-- template.html -->
+<!-- jinja written by chatgpt -->
+{% for year, papers in papers_by_year.items() -%}
+<h3> {{ year }} </h3>
+{% for paper in papers -%}
+    <li><a href="{{ paper.url }}">{{ paper.title }}</a><br>
+    {{ paper.authors }}<br>
+    {{ paper.venue }}, {{ paper.year }}.
+    {%- if paper.resources -%}
+        {%- for resource in paper.resources -%}
+            {% set outer_loop = loop %}
+            {% for key in resource -%}
+            <a href="{{ resource[key] }}">{{- key }}</a>{{ ", " if not outer_loop.last else "" -}}
+            {% endfor -%}
+        {% endfor -%}
+    {% endif -%}
+    {% if paper.awards %}
+        <strong>{{ paper.awards }}</strong>
+    {% endif -%}
+    </li>
+{% endfor -%}
+{% endfor -%}

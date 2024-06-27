@@ -1,0 +1,121 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html> 
+<head> 
+  <link type="text/css"
+        rel="stylesheet"
+        href="style.css">
+<title>Soham Deshmukh</title> 
+</head> 
+<body> 
+<h1>Soham Deshmukh</h1> 
+<div style="display:grid;grid-template-columns: 80% 20%;">
+  <div style="float:left;">
+    <p>
+    I'm an Applied Scientist on the <a href="https://www.microsoft.com/en-us/research/people/sdeshmukh/">Microsoft Speech team</a>, working on speech and audio processing. 
+    </p>
+    <p>
+    My work focuses on building audio processing technology to reduce communication barriers. 
+    This ranges from front-end audio processing like speech enhancement to building general purpose audio assistants.  
+    My research gets deployed in products like <a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software">Teams</a>, <a href="https://www.microsoft.com/en-us/edge">Edge</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">Outlook</a>.
+    </p>
+    <p>
+    Previously, I received my masters degree from Carnegie Mellon University, <a href="https://cmu-mlsp.github.io/">MLSP Group</a> and advised by <a href="https://cmu-mlsp.github.io/team/bhiksha_raj">Bhiksha Raj</a>. 
+    I completed my B.Tech from <a href="https://en.wikipedia.org/wiki/Veermata_Jijabai_Technological_Institute">VJTI</a>, working on NLP. 
+   </p>
+
+   <p>
+    Recent works: <a href="https://www.microsoft.com/en-us/edge/features/real-time-video-translation?form=MA13FJ" target="_blank">Video Translation</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/3a2e5889b4bbef997ddb13b55d5acf77-Abstract-Conference.html" target="_blank">Pengi</a>, <a href="https://ieeexplore.ieee.org/document/10095889/" target="_blank">CLAP</a></li>
+   </p>
+
+    <p>
+    <b>Links:</b>
+    <a href="https://scholar.google.com/citations?user=MasiEogAAAAJ&hl=en" target="_blank">Google Scholar</a> &bull;
+    <a href="https://github.com/soham97" target="_blank">GitHub</a> &bull;  
+    <a href="https://x.com/sohamdesh_" target="_blank">Twitter</a> &bull;  
+    <a href="https://www.linkedin.com/in/sdeshmuk/" target="_blank">LinkedIn</a>
+    </p>
+
+  </div>
+  <div style="float:left">  
+    <img class="mug center" style="max-width:85%" src="images/soham.jpg" alt="Soham Deshmukh"> 
+  </div>
+
+</div>
+
+<script src="static/jquery.min.js"></script>
+<script>
+    var $j = jQuery;
+
+    var tabIndex = 0;
+
+    // var sections = ["research", "news", "papers", "press", "service"];
+    var sections = ["research"];
+
+    for(i=0; i<sections.length; i++) {
+        $j("#"+sections[i]+"_place").hide();
+      }
+
+    $j('#places').find('hr').hide();
+    $j('#places').find('h2').hide();
+
+
+    ChooseList = function(node, changeCallback, place) {
+        loadIndex = sections.indexOf(place) == -1 ? 0 : sections.indexOf(place);
+
+        this.container = $j(node);
+        this.selectedNode = null;
+        this.currentIndex = null;
+        this.onChange = changeCallback;
+        this.elements = this.container.find('a');
+        this.elements.removeAttr('target');
+        this.container.find('a').on('click', $j.proxy(this.onClickHandler, this));
+        this.selectByIndex(loadIndex);
+
+        this.next = function() { 
+            this.selectByIndex( ((this.currentIndex + 1) % this.elements.length));
+          };
+
+        this.prev = function() { 
+            this.selectByIndex( ((this.currentIndex + this.elements.length - 1) % this.elements.length));
+          };
+
+      };
+
+    ChooseList.prototype.onClickHandler = function(evt) {
+        evt.preventDefault();
+        this.selectByElement(evt.currentTarget);
+      }
+
+    ChooseList.prototype.selectByIndex = function(i) {
+        this.selectByElement(this.elements[i]);
+      };ChooseList.prototype.selectByElement = function(el) {
+          if (this.selectedNode) {
+              $j(this.selectedNode).removeClass("selected");
+            };
+          $j(el).addClass("selected");
+          for (var i=0; i < this.elements.length; i++) {
+              if (this.elements[i] === el) {
+                  this.currentIndex = i;
+                }
+            };
+          this.selectedNode = el;
+          this.onChange(this);
+        };
+
+    function onMainChange(evt) {
+        $j("#"+sections[tabIndex]+"_place").fadeOut('fast', function() {
+            $j("#"+sections[evt.currentIndex]+"_place").fadeIn();
+          });
+        tabIndex = evt.currentIndex;
+      }
+
+    initialLoad = window.location.hash.substr(1);    
+    mainNav = new ChooseList($j(".navigation_list"), onMainChange, initialLoad);
+
+    $j(function(){
+      $j("#include-publications").load("publications-generated.html");
+    });
+
+</script>
+</body> 
+</html>
